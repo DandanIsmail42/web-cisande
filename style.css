@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* mavbar */
+.dropdown-toggle{
+    color: aliceblue;
+}
+
+/* jumbotron */
+.jumbo{
+    background-image: url('./images/kades.png');
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+/* carousel */
+.carousel{
+    width: 130vh;
+    height: 50vh;
+    margin: auto;
+}
+.carousel img{
+    height: 300px;
+}
+/* sejarah */
+#sejarah{
+    margin-top: 100px;
+}
+p{
+    margin-left: 75px;
+    margin-right: 75px;
+    height: 80vh;
+}
+h5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+hr{
+    width: 200px;
+    margin: auto;
+}
+
+/* visi misi */
+
+/* pesan */
+#pesan{
+    margin-top: 80px;
+    height: 80vh;
+}
+
+/* footer */
+.container-about{
+    justify-content: center;
+    background-color: #dddd;
+}
+
+.container-about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(27, 27, 27);
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+}
